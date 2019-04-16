@@ -65,8 +65,5 @@ Since the model is training on image files a simple cpu is going to take forever
 For prediction a CPU can be used. 
 
 
-## Pre-Trained Network
-The checkpoint.pth file contains the information of a network trained to recognise 102 different species of flowers. It has been trained with specific hyperparameters thus if you don't set them right the network will fail. In order to have a prediction for an image located in the path /path/to/image using my pretrained model you can simply type ```python predict.py /path/to/image checkpoint.pth```
-
 This project is licensed under the MIT License - see the [LICENSE.md]
 
